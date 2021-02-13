@@ -1,0 +1,32 @@
+body {
+    background: #EDE574;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    
+} 
+
+.tododiv{
+  background-color: burlywood;
+  width: 20%;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 0px 0px 10px
+}
+
+.inpBox{
+    width: 21%;
+    border-radius: 15px 15px 0px 0px ;
+    border: solid 2px green;
+
+}
+
+.btndiv{
+    width: 17rem;
+
+}
+.todolist:hover{
+   background-color: crimson;
+   color: white;
+}
+
